@@ -22,12 +22,15 @@ echo The Student name is %var3% and his age is %var4%
 
 set /a var5=9
 set /a var6=7
-set /a variableplus=%var5%+%var6%
-set /a variableminus=%var5%-%var6%
-set /a variablemulti=%var5%*%var6%
-set /a variabledivide=%var5%/%var6%
-echo The answers are %variableplus% , %variableminus%, %variablemulti%, %variabledivide% 
+@REM set /a variableplus=%var5%+%var6%
+@REM set /a variableminus=%var5%-%var6%
+@REM set /a variablemulti=%var5%*%var6%
+rem set /a variabledivide=%var5%/%var6%
+rem echo The answers are %variableplus% , %variableminus%, %variablemulti%, %variabledivide% 
 
+if %var5% EQU %var6% echo 9 is equal to 7
+if %var5% NEQ %var6% echo 9 is not equal to 7
+@REM LSS, LEQ GTR, GEQ
 
 
  pause
