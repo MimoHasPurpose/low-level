@@ -31,9 +31,7 @@ rem echo The answers are %variableplus% , %variableminus%, %variablemulti%, %var
 if %var5% EQU %var6% echo 9 is equal to 7
 if %var5% NEQ %var6% echo 9 is not equal to 7
 @REM LSS, LEQ GTR, GEQ
-
-
- pause
+pause
 
 
 rem 1. Arithmetic (+,-,*,/)
